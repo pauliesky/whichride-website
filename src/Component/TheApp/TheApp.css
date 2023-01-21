@@ -1,0 +1,349 @@
+.theapp__container {
+  height: 850px;
+  background: #5c1a8d;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.theapp__container-title {
+  width: 550px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.theapp__container-body {
+  width: 410px;
+  /* height: 89px; */
+  /* background: yellow; */
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 114.5%;
+  /* or 23px */
+  /* text-align: center; */
+  letter-spacing: -0.01em;
+  /* Gray 5 */
+  color: #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+.theapp__container-image {
+  width: 272px;
+
+  height: 447px;
+  filter: drop-shadow(15px 10px 70px rgba(0, 0, 0, 0.49));
+}
+.theapp__container-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.theapp__container-content-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 447px;
+}
+.theapp__container-content-body-1 {
+  width: 369px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* Inside auto layout */
+}
+.theapp__container-content-body-2 {
+  width: 369px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.theapp__container-content-body-3 {
+  width: 369px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+
+  /* Inside auto layout */
+}
+.theapp__container-content-body-1-logo {
+  width: 49px;
+  height: 49px;
+  background: #f2c94c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.theapp__container-content-body-2-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  /* Gray 6 */
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.theapp__container-content-body-3-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Gray 6 */
+  margin-top: 1rem;
+  background: #f2f2f2;
+}
+.theapp__container-content-body-1-logo-text {
+  width: 30px;
+  height: 16px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.theapp__container-content-body-2-logo-text {
+  width: 30px;
+  height: 16px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.theapp__container-content-body-3-logo-text {
+  width: 30px;
+  height: 16px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.theapp__container-content-body-1-logo-digit {
+  width: 6px;
+  height: 16px;
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.theapp__container-content-body-2-logo-digit {
+  width: 8px;
+  height: 16px;
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+.theapp__container-content-body-3-logo-digit {
+  width: 8px;
+  height: 16px;
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.5%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.theapp__container-content-body-1-title {
+  height: 27px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 112.5%;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  /* identical to box height, or 27px */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+}
+.theapp__container-content-body-2-title {
+  /* width: 230px; */
+  height: 27px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 112.5%;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  /* identical to box height, or 27px */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+}
+.theapp__container-content-body-3-title {
+  /* width: 147px; */
+  height: 27px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 112.5%;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  /* identical to box height, or 27px */
+
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.theapp__container-content-body-1-body {
+  /* width: 379px; */
+  text-align: left;
+  height: 43px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  /* or 20px */
+  letter-spacing: -0.01em;
+  /* Gray 7 */
+  color: #f7f7f7;
+}
+.theapp__container-content-body-2-body {
+  height: 64px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: left;
+  /* or 20px */
+
+  letter-spacing: -0.01em;
+
+  /* Gray 7 */
+
+  color: #f7f7f7;
+}
+.theapp__container-content-body-3-body {
+  height: 89px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: left;
+  /* or 21px */
+
+  letter-spacing: -0.01em;
+
+  /* Gray 5 */
+
+  color: #e0e0e0;
+}
+
+@media screen and (max-width: 768px) {
+  .theapp__container-content-body-1,
+  .theapp__container-content-body-2,
+  .theapp__container-content-body-3 {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .theapp__container-image {
+    display: none;
+  }
+  .theapp__container {
+    height: 550px;
+  }
+  .theapp__container-title {
+    width: 550px;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    margin-bottom: 1rem;
+  }
+
+  .theapp__container-body {
+    width: 410px;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 114.5%;
+    letter-spacing: -0.01em;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+  }
+
+  .theapp__container-content-body {
+    height: 347px;
+  }
+}

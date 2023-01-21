@@ -1,0 +1,110 @@
+.footer__container-1 {
+  height: 389px;
+  background: #f2c94c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container-1-title {
+  /* width: 411px; */
+  height: 41px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 114.5%;
+  /* or 41px */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #232c35;
+  margin-bottom: 1.5rem;
+}
+.footer__container-1-content {
+  width: 495px;
+  height: 43px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 114.5%;
+  /* or 23px */
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.5rem;
+  color: #233533;
+}
+.footer__newsletter {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer__container-1-email {
+  width: 342px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 1rem;
+}
+
+.footer__container-1-button {
+  width: 157px;
+  height: 48px;
+  background: #2c3539;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer__container-2 {
+  height: 73px;
+  background: #deb63d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__container-2-content {
+  /* width: 1162px; */
+  height: 10px;
+  font-family: "Brown";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 9px;
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+  /* White */
+  gap: 25rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer__container-2-content {
+    gap: 15rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer__container-2-content {
+    gap: 12rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__container-2-content {
+    gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__container-2-content {
+    gap: 5rem;
+  }
+.footer__newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+}

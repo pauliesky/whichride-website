@@ -1,0 +1,122 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 43px;
+}
+
+.nav__logo {
+  width: 168px;
+  height: 40px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 33px;
+  width: 266px;
+  height: 18px;
+}
+
+.nav__links-1 {
+  width: 55px;
+  height: 18px;
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #2c3539;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+}
+
+.nav__links-2 {
+  width: 61px;
+  height: 18px;
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #2c3539;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 1;
+  flex-grow: 0; */
+}
+.nav__links-3 {
+  width: 84px;
+  height: 18px;
+
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #2c3539;
+
+  /* Inside auto layout */
+  /* 
+  flex: none;
+  order: 2;
+  flex-grow: 0; */
+}
+
+button {
+  border: none;
+  font-size: 16px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .nav__links {
+    display: none;
+  }
+  .nav__links-mobile {
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    background: black;
+    position: absolute;
+    left: 1px;
+    top: 3rem;
+  }
+
+  .mobile-menu-icon {
+    position: relative;
+    display: block;
+    right: 20px;
+    top: 5px;
+    color: black;
+    font-size: 2rem;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+}
