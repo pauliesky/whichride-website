@@ -9,7 +9,7 @@
 .footer__container-1-title {
   /* width: 411px; */
   height: 41px;
-  font-family: "Cera Pro";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -23,7 +23,7 @@
 .footer__container-1-content {
   width: 495px;
   height: 43px;
-  font-family: "Cera Pro";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -45,6 +45,7 @@
   border: 2px solid #ffffff;
   color: white;
   padding: 1rem;
+  font-family: "brown";
 }
 
 .footer__container-1-button {
@@ -55,6 +56,7 @@
   justify-content: center;
   align-items: center;
   color: white;
+  font-family: 'brown';
 }
 
 .footer__container-2 {

@@ -27,9 +27,9 @@ const Footer = () => {
 
       <div className='footer__container-2'>
         <div className='footer__container-2-content'  >
-          <div> 2020 Whichride - All rights reserved.   </div>
+          <div> 	&#169; 2020 Whichride - All rights reserved.   </div>
           <div className='privy'>
-          </div>Privacy PolicyTerms and Conditions
+          </div>Privacy Policy   Terms and Conditions
         </div>
 
       </div>

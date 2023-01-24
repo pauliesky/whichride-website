@@ -24,7 +24,7 @@ const About = () => {
               More choices
             </div>
             <div className='about__content-1-body'>
-              WhichRide lets you compare pricing<br /> across the major rideshares so you can <br />save money on every ride..</div>
+              WhichRide lets you compare pricing<br /> across the major rideshares so you can <br />save money on every ride.</div>
           </div>
           <div className='about__grid' data-aos='fade-left'>
             <div className='about__content-3-logo'>

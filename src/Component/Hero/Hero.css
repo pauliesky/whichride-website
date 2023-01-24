@@ -1,3 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/917a69d24b88e2d4d2ca803c0605bd59?family=CeraPRO-Regular);
+
+@font-face {
+  font-family: "CeraPRO-Regular";
+  src: url("//db.onlinewebfonts.com/t/917a69d24b88e2d4d2ca803c0605bd59.eot");
+}
 .hero__container {
   display: flex;
   flex-direction: row;
@@ -26,15 +32,16 @@
   color: #232c35;
   margin-bottom: 20px;
   letter-spacing: -2px;
+  font-family: "CeraPRO-Regular";
 }
 
 .hero__container-content {
   width: 440px;
   height: 50px;
   /* margin-top: 1rem; */
-  font-family: "Cera Pro";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 114.5%;
   /* or 23px */

@@ -71,12 +71,12 @@ const TheApp = () => {
               <div className='logo-box' >
                 <div className='theapp__container-content-body-3-logo'>
                   <div className='theapp__container-content-body-3-logo-text' >Step</div>
-                  <div className='theapp__container-content-body-3-logo-digit'>1</div>
+                  <div className='theapp__container-content-body-3-logo-digit'>3</div>
                 </div>
               </div>
               <div>
                 <div className='theapp__container-content-body-3-title'>
-                  Enter location
+                  Pay and Save
                 </div>
                 <div className='theapp__container-content-body-3-body'>
                   Once you select a ride, we search the web for coupons to get you an even better deal, then book seemlessly within our app and earn points while you ride.
