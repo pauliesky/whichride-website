@@ -1,5 +1,4 @@
 
-import { Animator, ScrollContainer, ScrollPage } from 'react-scroll-motion';
 import './App.css';
 import About from './Component/AboutUs/About';
 import Footer from './Component/Footer/Footer';

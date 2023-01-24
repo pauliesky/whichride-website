@@ -20,7 +20,7 @@
 
 .about__title {
   /* background: blue; */
- font-family: "CeraPRO-Regular";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -81,7 +81,7 @@
 
 .about__content-1-title {
   height: 23px;
- font-family: "CeraPRO-Regular";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -180,7 +180,7 @@
 }
 .about__content-4-body {
   height: 89px;
- font-family: "CeraPRO-Regular";
+  font-family: "CeraPRO-Regular";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -212,10 +212,10 @@
   .about__content {
     /* gap: 10px; */
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: auto;
     /* justify-content: center; */
     /* align-items: center; */
-    /* background-color: red; */  
+    /* background-color: red; */
     margin-left: 0rem;
   }
   .about__title {
@@ -238,6 +238,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-y: 1000rem;
   }
 
   .about__content-1-logo,

@@ -9,8 +9,8 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 0 100px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   height: 523px;
   gap: 2rem;
 }
@@ -54,6 +54,7 @@
 .hero__container-img {
   width: 562px;
   height: 524px;
+  /* overflow-y: 20px; */
 }
 
 @media screen and (max-width: 1024px) {

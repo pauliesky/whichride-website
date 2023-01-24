@@ -33,6 +33,7 @@
 
 .App {
   background: #ffffff;
+  /* width: 100%; */
 }
 * {
   padding: 0;

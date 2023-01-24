@@ -4,7 +4,6 @@ import phone2 from '../../assets/image 2.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-// import { Animator, ScrollContainer, ScrollPage, Fade, batch, MoveIn } from 'react-scroll-motion';
 
 const Hero = () => {
 
