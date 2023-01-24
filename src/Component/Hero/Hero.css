@@ -1,31 +1,37 @@
 .hero__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0 20rem 0;
+  justify-content: space-around;
+  padding: 0 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 523px;
+  gap: 2rem;
 }
 .hero__container-text {
-  padding-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  margin: 150px 0px 0px 50px;
+  width: 441px;
+  height: 389px;
 }
 .hero__container-title {
-  /* background: blue; */
-  width: 300px;
-  /* height: 153px; */
-  font-family: "Cera Pro";
+  width: 480px;
+  height: 106px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 33px;
-  /* or 110% */
-
-  letter-spacing: -0.01em;
-
+  font-weight: bold;
+  font-size: 53px;
+  line-height: 53px;
   color: #232c35;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
 }
 
 .hero__container-content {
-  height: 39px;
-  margin-top: 1rem;
+  width: 440px;
+  height: 50px;
+  /* margin-top: 1rem; */
   font-family: "Cera Pro";
   font-style: normal;
   font-weight: 500;
@@ -37,73 +43,102 @@
   color: #4f4f4f;
 }
 
-.hero__container-image {
-  width: 477px;
-  height: 451px;
-}
+.hero__container-image,
 .hero__container-img {
-  width: 477px;
-  height: 451px;
+  width: 562px;
+  height: 524px;
 }
 
 @media screen and (max-width: 1024px) {
-  .hero__container-image,
-  .hero__container-img {
-    width: 377px;
-    height: 351px;
-  }
-
-  .hero__container-text {
-    padding-top: 9rem;
-  }
-}
-@media screen and (max-width: 765px) {
-  .hero__container-image,
-  .hero__container-img {
-    width: 277px;
-    height: 251px;
-  }
   .hero__container {
-    padding: 0 15rem 0;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -5rem; */
 
-  .hero__container-text {
-    padding-top: 4rem;
+    padding: 0px;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .hero__container-image,
-  .hero__container-img {
-   
-    display: none;
-  }
-  .hero__container {
-    height: 15rem;
-  }
-
   .hero__container-title {
-    /* font-size: 12px; */
-    width: 350px;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 38px;
-    /* or 110% */
-    letter-spacing: -0.01em;
+    width: 535px;
     text-align: center;
+    height: 100px;
+    font-size: 48px;
   }
   .hero__container-content {
-    /* height: 39px; */
-    margin-top: 0.25rem;
-    font-family: "Cera Pro";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    width: 535px;
     text-align: center;
-    /* or 23px */
-    letter-spacing: -0.01em;
-    /* Gray 2 */
-    color: #4f4f4f;
+    font-size: 23px;
+  }
+  .hero__container-image,
+  .hero__container-img {
+    width: 335px;
+    height: 320px;
+    margin-left: 2rem;
+  }
+  .hero__container-text {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero__container-image,
+  .hero__container-img {
+    width: 335px;
+    height: 320px;
+    /* margin-left: 2rem; */
+    /* background-color: red; */
+  }
+  .hero__container {
+    padding-right: 120px;
+  }
+}
+@media screen and (max-width: 676px) {
+  .hero__container-title {
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .hero__container {
+    padding: 0px;
+    margin-left: -60px;
+  }
+
+  .hero__container-image,
+  .hero__container-img {
+    margin-left: 20px;
+  }
+
+  .hero__container-content {
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero__container-title {
+    font-size: 33px;
+    line-height: 35px;
+    height: 50px;
+    /* margin: 0px; */
+    margin-bottom: 50px;
+    margin-left: 25px;
+    width: 311px;
+  }
+  .hero__container-text {
+    height: 200px;
+    width: 300px;
+  }
+  .hero__container-content {
+    height: 50px;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 35px;
+  }
+  .hero__container-image,
+  .hero__container-img {
+    margin-left: 20px;
+    margin-top: -9px;
+  }
+  .hero__container {
+    height: 480px;
   }
 }

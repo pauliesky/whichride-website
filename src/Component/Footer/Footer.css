@@ -100,11 +100,31 @@
   .footer__container-2-content {
     gap: 5rem;
   }
-.footer__newsletter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  .footer__newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer__container-1-title,
+  .footer__container-1-content {
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+
+  .footer__container-1-content {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
 }
+@media screen and (max-width: 450px) {
+  .footer__container-2-content {
+    display: block;
+  }
+  .privy {
+    margin-top: 5px;
+  }
 }

@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Hero.css'
 import phone2 from '../../assets/image 2.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-
+// import { Animator, ScrollContainer, ScrollPage, Fade, batch, MoveIn } from 'react-scroll-motion';
 
 const Hero = () => {
+
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
+
   return (
     <>
+
+
+
+      <div className='Hero'  >
+      </div>
       <div className='hero__container' >
 
         <div className='hero__container-text'>
@@ -16,14 +29,15 @@ const Hero = () => {
             Think Compare the market but for taxis.
           </div>
         </div>
-
-
-
-        <div className='hero__container-image'>
+        <div className='hero__container-image' data-aos='fade-left'>
           <img className='hero__container-img' alt='phone' src={phone2}>
           </img>
         </div>
       </div>
+
+
+
+
 
     </>
   )
