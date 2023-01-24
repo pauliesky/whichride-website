@@ -25,7 +25,7 @@ const Hero = () => {
         <div className='hero__container-text'>
           <div className='hero__container-title'>Compare & book <br />ride-hailing providers
           </div>
-          <div className='hero__container-content'>Save money and time with WhichrRide.<br />
+          <div className='hero__container-content'>Save money and time with WhichRide.<br />
             Think Compare the market but for taxis.
           </div>
         </div>
